@@ -1,4 +1,4 @@
-## Hi there 👋
+![Language Frequency](https://github-readme-stats.vercel.app/api/top-langs/?username=akioweh&layout=compact&langs_count=20&custom_title=Language+Frequency&hide=html,jupyter+notebook)
 
 <!--
 **akioweh/akioweh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
