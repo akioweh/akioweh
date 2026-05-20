@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 0 * * *" # daily at midnight
   workflow_dispatch:
+  push:
 
 permissions:
   contents: write
@@ -18,7 +19,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=20&custom_title=Language+Frequency&hide=html,jupyter+notebook
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=20&custom_title=Language+Frequency&hide=html,jupyter+notebook,php,hack&exclude_repo=ug-ELEC0129-arena
           path: assets/language-frequency.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
